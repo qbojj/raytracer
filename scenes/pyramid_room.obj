@@ -1,0 +1,35 @@
+# Simple room and a pyramid
+v -2.0 0.0 -2.0
+v  2.0 0.0 -2.0
+v  2.0 0.0  2.0
+v -2.0 0.0  2.0
+
+v -2.0 2.5 -2.0
+v  2.0 2.5 -2.0
+v  2.0 2.5  2.0
+v -2.0 2.5  2.0
+
+v  0.0 1.4 0.0
+v -0.7 0.0 -0.7
+v  0.7 0.0 -0.7
+v  0.7 0.0  0.7
+v -0.7 0.0  0.7
+
+# floor
+f 1 2 3 4
+# back wall
+f 1 2 6 5
+# left wall
+f 1 5 8 4
+# right wall
+f 2 3 7 6
+# ceiling
+f 5 6 7 8
+
+# pyramid sides
+f 10 11 9
+f 11 12 9
+f 12 13 9
+f 13 10 9
+# pyramid base
+f 10 11 12 13
