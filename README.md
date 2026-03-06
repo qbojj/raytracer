@@ -81,6 +81,5 @@ Outputs are written to `renders/`.
 ## Project Structure
 
 - `src/main.cpp` ray tracer implementation
-- `src/stb_image_write.h` image writer header (single-header library)
 - `scenes/*.obj` example scenes
 - `Makefile` build rules
